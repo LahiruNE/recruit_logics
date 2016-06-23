@@ -1,0 +1,511 @@
+
+body{
+    margin: 0;
+    background-color: #00a491;
+    background-size: cover;
+}
+
+#head_logo{
+    height:50px;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+
+#header_bar{
+    top=0;
+    background-color: whitesmoke;
+    position: fixed;
+    height:100px;
+    width: 100%;
+}
+
+#header_img{
+    height:150px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+#header_img_reg{
+    height:150px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 500px;
+}
+
+#header_img_reg_success{
+    width: 500px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#login_form{
+    width: 350px;
+    height: 420px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 180px;
+    margin-left: 60%;    
+}
+
+#register_form{
+    width: 500px;
+    height: 750px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 150px;
+    margin-left: 30%;    
+}
+
+#change_setting_form{
+    width: 820px;
+    height: 680px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 280px;
+    margin-left: 12%;    
+}
+
+#register_confirm_form{
+    width: 500px;
+    height: 350px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 150px;
+    margin-left: 30%;
+    
+}
+
+#contact_form1{
+    width: 1100px;
+    height: 560px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 120px;
+    margin-left: 9.5%;
+    
+}
+
+#contact_form2{
+    width: 1100px;
+    height: 1000px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 720px;
+    margin-left: 9.5%;
+    
+}
+
+#contact_inner{
+    width: 1000px;
+    height: 1000px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 0px;
+    margin-left: 4%;
+}
+
+#about_form{
+    width: 1100px;
+    height: 560px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 120px;
+    margin-left: 9.5%;
+    
+}
+
+#about_form_inner{
+    width: 1000px;
+    height: 560px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 0px;
+    margin-left: 4%;
+    
+}
+
+#home_form{
+    width: 1100px;
+    height: 1200px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 120px;
+    margin-left: 9.5%;    
+}
+
+#form_inner{
+    width: 1100px;
+    height: 280px;
+    border-style:none;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    position:absolute;
+    background-color: whitesmoke;
+    margin-top: -1;
+    margin-left: 0;    
+}
+
+#sell_form{
+    width: 1100px;
+    height: 560px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 120px;
+    margin-left: 9.5%;
+}
+
+#jobs_form{
+    width: 1100px;
+    height: 560px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 120px;
+    margin-left: 9.5%;
+}
+
+#setting_form{
+    width: 1100px;
+    height: 1000px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 120px;
+    margin-left: 9.5%;
+}
+
+#forgot_form{
+    width: 1100px;
+    height: 560px;
+    border-style:none;
+    border-radius: 2%;
+    position:absolute;
+    background-color:whitesmoke;
+    margin-top: 70px;
+    margin-left: 9.5%;
+    
+}
+
+#log_form{
+    position: relative;
+    left:10px;
+    top:50px;
+}
+
+#reg_form{
+    position: relative;
+    left:10px;
+    top:50px;
+}
+
+#change_form{
+    position: relative;
+    left:10px;
+    top:10px;    
+}
+
+#con_form{
+    position: relative;
+    left:50px;
+    top:0;    
+}
+
+td{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#submit{
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #00a491;
+    font-weight: 600;
+    color:#2c2b2c;
+}
+
+#form_titles{
+    border-bottom-width: 2px;
+    border-bottom-style: ridge;
+    color: #2c2b2c;    
+    }
+
+#font_color{
+    color:#2c2b2c;
+    }
+
+#log_image{
+    width:100px;
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 150px;
+}
+
+#reg_image{
+    position: fixed;
+    margin-top: 380px;
+    margin-left: 1000px;
+}
+
+#about_image{
+    width: 350px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 670px;
+    
+}
+
+#contact_image{    
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 730px;
+    width: 500px;
+    
+}
+
+#header_bar ul{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    background-color: #2c2b2c;
+}
+
+#header_bar li {
+    float: left;
+}
+
+#header_bar li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header_bar li a:hover {
+    background-color: #111111;
+}
+
+#header_bar li a:active{
+    background-color: #00a491;
+    color: whitesmoke;
+}
+
+#errors{
+    font-family: monospace;
+    color: #ff0000;
+}
+
+#logout_button{
+    position:absolute;
+    top: 50px;
+    left: 1200px;       
+    width: 75px;
+    height: 45px;
+    background-color: #2c2b2c;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;    
+}
+
+#logout_button:hover {
+    background-color: #111111;
+}
+
+#logout_button:active{
+    background-color: #00a491;
+    color: whitesmoke;
+}
+
+#logout_letter{
+    position: relative;
+    top: 12px;
+}
+
+center.reg_confirm{
+    position:relative;
+    margin-top: 50px;
+}
+
+#logged_user{
+    position: relative;
+    left: 1140px;
+    top: -100px;
+    color: #2c2b2c;
+}
+
+#guest_img{
+    position: fixed;
+    height: 60px;
+    top: 560px;
+    left: 960px;
+}
+
+#guest_img_head{
+    position: fixed;
+    height: 75px;
+    top: 20px;
+    left: 1070px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#arrow{
+    position: relative;
+    height: 40px;
+    top: 15px;
+    left: -8px;
+}
+
+#fo_img{
+    position: absolute;
+    width: 400;
+    top: 90px;
+    left: 350px;
+}
+
+#comment_table{
+    position: absolute;
+    top: 100px;
+    width: 1000px;
+}
+
+#comment_header{
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    width: 1300px;
+}
+
+#widjet1{
+    position: absolute;
+    width: 300;
+    height: 350;
+    background-color: #f3e3e3;
+    top: 300px;
+    left: 50px;
+    color:#2c2b2c;
+}
+
+#widjet2{
+    position: absolute;
+    width: 300;
+    height: 350;
+    background-color: #c7ceea;
+    top: 300px;
+    left: 400px;
+    color:#2c2b2c;
+}
+
+#widjet3{
+    position: absolute;
+    width: 300;
+    height: 350;
+    background-color: #c7ead0;
+    top: 300px;
+    left: 750;
+    color:#2c2b2c;
+}
+
+#widjet4{
+    position: absolute;
+    width: 300;
+    height: 350;
+    background-color: #e3e49d;
+    top: 680px; 
+    left: 200px;
+    color:#2c2b2c;
+}
+
+#widjet5{
+    position: absolute;
+    width: 300;
+    height: 350;
+    background-color: #e5ba94;
+    top: 680px; 
+    left: 600px;
+    color:#2c2b2c;
+}
+
+#w1_image{
+    position: relative;
+    width: 280px;
+    left: 0px;
+    
+}
+
+#w2_image{
+    position: relative;
+    width: 320px;
+    left: 5px;
+    
+}
+
+#w3_image{
+    position: relative;
+    width: 150px;
+    left: 0px;
+    
+}
+
+#w4_image{
+    position: relative;
+    width: 150px;
+    left: -10px;
+    
+}
+
+#w5_image{
+    position: relative;
+    width: 350px;
+    left: 5px;
+    
+}
+
+#setting_table{
+    width: 800px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    color: #2c2b2c;
+}
+
+#error_img{
+    position: absolute;
+    height: 150;
+    height: 150;
+    left: 100;
+    top: 50;
+}
